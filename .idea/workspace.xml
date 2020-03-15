@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7645c599-ef7f-4cbf-a451-a62350c0caee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Sanctuary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AscensionUnlocker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/Sanctuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ASMod/ASMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/AlwaysDamageRandomEnemyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/ClearAllDebuffsAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/DamageAllAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/ExhaustHandAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/GlitchAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/MessageCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/ReverseFlameSlingAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/actions/utility/UpgradeMagicNumberAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/SanctuaryCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/cupcake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/cupcakebad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/osremove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/osremovebad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/shivbad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/sunnyday.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/cards/sunnydaybad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/events/IdentityCrisisEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/orbs/DefaultOrb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/patches/cards/CardCostModificationPatches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/patches/cards/CardENUMs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/patches/cards/ScryDiscardAmountHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/powers/SwarmPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/Adamantium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/BurnerInserter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/CrumpledPoem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/DokiDokiMemoir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/DoubleEdgedShield.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/Halation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/LetterOfGratitude.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/LunarClock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/MetalUpa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/MiniMonika.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/OrderPad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/PeculiarCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/RainbowDark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/TheSun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/TheSwarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/TimewalkingPendant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/relics/TwinFlower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/universal/CardHPLossHook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/util/IDCheckDontTouchPls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ASMod/util/IDCheckDontTouchPls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/util/SanctuaryMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/util/TextureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ASMod/util/TextureLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/util/UC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/variables/DefaultCustomVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/vfx/general/LunarClockLunarDial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/vfx/general/MenacingVFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/vfx/general/ObtainRelicLater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/vfx/general/StraightSwarmParticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sanctuary/vfx/general/dokiVFX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/IDCheckStringsDONT-EDIT-AT-ALL.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/IDCheckStringsDONT-EDIT-AT-ALL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/audio/pageflip.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/Badge.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ASModResources/images/Badge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/01_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/02_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/03_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/04_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/05_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/06_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/cards/07_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/LunarClock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/doki9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/jojo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/effects/swarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/events/Events.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/events/IdentityCrisisEvent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/events/IdentityCrisisEvent2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/orbs/default_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/powers/swarm32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/powers/swarm84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/DokiDokiMemoir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/LunarClock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/MetalUpa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/OrderPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/Rainbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/ReinaLetter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/Relics.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/Shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/TheSun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/TheSwarm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/TimewalkingPendant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/TwinFlower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/adamantium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/default_clickable_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/faded.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/faded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/fadedyin.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/fadeyang.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/fadeyang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/fadeyin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/inserter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/letterbase dok fin2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/letterbase rei fin2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/letterbase.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/BottledPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/adamantium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/default_clickable_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/inserter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/phoenix_feather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/placeholder_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/placeholder_relic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/torii.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/outline/yang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/phoenix_feather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/placeholder_relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/placeholder_relic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/reimu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/relics/torii.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/bsod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/imf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/m_sticker_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/m_sticker_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/missing_texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/notebook-glitch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/notebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special5a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special5b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/poem_special/poem_special9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/tip/TEST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/tip/t1.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/tip/t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/tip/t1a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/tip/t1b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/images/ui/unknown_002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Card-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Event-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Keyword-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Orb-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Power-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Relic-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Tutorial-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SanctuaryResources/localization/eng/Sanctuary-Ui-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ASModResources/localization/eng/ASMod-Ui-Strings.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y49KIgrUGdjwPkIVVrgiZPNn3u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Sanctuary.vfx.general" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bailey\Desktop\my_mods\MM\Sanctuary\src\main\java\Sanctuary\actions\utility" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="AscensionUnlocker" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="AscensionUnlocker" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7645c599-ef7f-4cbf-a451-a62350c0caee" name="Default Changelist" comment="" />
+      <created>1582190933654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582190933654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="599" y="207" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1584198733501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="599" y="207" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584198733501" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583955255744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1583955255744" />
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582192119488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1582192119488" />
+    <state x="752" y="409" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583998102748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="535" y="286" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1583940135154" />
+    <state x="752" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1583998102748" />
+    <state x="2672" y="424" width="416" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583598869197" />
+    <state x="580" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584037210760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1583941427177" />
+    <state x="580" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584037210760" />
+    <state x="2500" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583854649331" />
+    <state x="651" y="171" key="FileChooserDialogImpl" timestamp="1584205834207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583919616512" />
+    <state x="651" y="171" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584205834207" />
+    <state x="2571" y="178" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584038515191" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1584283526210">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1306" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584010638735" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584283342123" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584283526210" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1584283526210">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1306" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584010638735" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584283342123" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584283526210" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1584283526210">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1306" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584010638734" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584283342123" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584283526210" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1584283526210">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1306" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584010638735" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584283342123" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584283526210" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1584198861880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584198861880" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583997898679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1583997898679" />
+    <state x="2576" y="356" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583597708332" />
+    <state x="526" y="129" width="1036" height="866" key="find.popup" timestamp="1584282742476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="374" y="90" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583333724179" />
+    <state x="526" y="129" width="1036" height="866" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584282742476" />
+    <state x="2446" y="134" width="1036" height="900" key="find.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1583855485842" />
+    <state x="499" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583920942581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1583920942581" />
+    <state x="702" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1583445613170" />
+    <state x="2396" y="240" width="945" height="1005" key="run.anything.popup" timestamp="1584283526225">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584010638764" />
+    <state x="476" y="231" width="945" height="968" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1584283342135" />
+    <state x="2396" y="240" width="945" height="1005" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584283526225" />
+  </component>
+</project>
